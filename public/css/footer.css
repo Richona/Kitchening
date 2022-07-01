@@ -1,0 +1,9 @@
+footer{
+    text-align: center;
+}
+.footer__nav ul li{
+    background-color: var(--colorGrisOscuro);
+    padding: 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
