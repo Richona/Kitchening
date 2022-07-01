@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+}
+.header__logo img{
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid var(--colorGrisClaro);
+    margin: 15px 0 25px;
+}
+.header__burger-menu i{
+    background-color: var(--colorGrisOscuro);
+    color: white;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.header__nav ul li{
+    background-color: var(--colorGrisOscuro);
+    padding: 10px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
