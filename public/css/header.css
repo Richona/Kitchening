@@ -5,17 +5,18 @@ header{
     width: 180px;
     border-radius: 50%;
     border: 2px solid var(--colorGrisClaro);
-    margin: 15px 0 25px;
+    margin: 15px 0 30px;
 }
-.header__burger-menu i{
-    background-color: var(--colorGrisOscuro);
-    color: white;
-    padding: 5px;
-    margin-bottom: 25px;
+.header__burger-menu button{
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: var(--colorGrisOscuro);
 }
 .header__nav ul li{
     background-color: var(--colorGrisOscuro);
-    padding: 10px;
-    margin-bottom: 2px;
+    padding: 8px 0;
+    margin: 0 10px 2px;
     text-transform: uppercase;
 }
