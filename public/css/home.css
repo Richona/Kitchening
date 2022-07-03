@@ -67,4 +67,12 @@ body {
     .home__section--banner div img{
         max-width: 100%;
     }
+    .home__section--products{
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-between;
+    }
+    .home__section__product{
+        width:49%;
+    }
 }
