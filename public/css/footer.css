@@ -2,8 +2,13 @@ footer{
     text-align: center;
 }
 .footer__nav ul li{
-    background-color: var(--colorGrisOscuro);
+    background-color: var(--colorRojo);
     padding: 10px;
-    margin: 0 10px 2px;
+    margin-bottom: 2px;
     text-transform: uppercase;
+}
+
+/* MEDIA QUERY | TABLET | 768px */
+@media (min-width: 768px){
+    
 }

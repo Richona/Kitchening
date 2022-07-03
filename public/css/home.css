@@ -2,13 +2,19 @@ body {
     background-image: url("/images/bg-body.png");
 }
 
-.home__section__product {
-    margin: 10px;
+.home__main{
+    margin: 30px 10px 30px;
 }
-
+.home__section--banner{
+    display: none;
+}
+.home__section--banner div img{
+    width: 1180px;
+}
 .home__section__product__photo {
     position: relative;
     width: 100%;
+    margin-top: 20px;
 }
 
 .home__section__product__photo .banner {
@@ -37,11 +43,28 @@ body {
 
     background-color: rgba(0, 0, 0, 0.5);
 }
+.home__section__product h2{
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+.home__section__product p{
+    color: var(--colorGrisOscuro);
+    margin-bottom: 20px;
+}
 .home__section__product .vermas{
     background-color: var(--colorGrisOscuro);
     font-weight: 700;
     
-    padding: 10px;
+    padding: 8px;
+    display: inline-block;
+}
 
-    visibility: hidden;
+/* MEDIA QUERY | TABLET | 768px */
+@media (min-width: 768px){
+    .home__section--banner{
+        display: block;
+    }
+    .home__section--banner div img{
+        max-width: 100%;
+    }
 }
