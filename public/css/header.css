@@ -52,3 +52,14 @@ header {
         line-height: 50px;
     }
 }
+
+/* MEDIA QUERY | DESKTOP | 1200px */
+@media (min-width: 1200px){
+    .header__nav ul{
+        max-width: 1200px;
+    }
+    .header__nav ul li{
+        width: 180px;
+        
+    }
+}
