@@ -1,11 +1,11 @@
-footer{
+.footer__nav{
     text-align: center;
+    max-width: 1200px;
 }
 .footer__nav ul li{
     background-color: var(--colorRojo);
     padding: 10px;
     margin-bottom: 2px;
-    text-transform: uppercase;
 }
 
 /* MEDIA QUERY | TABLET | 768px */
@@ -15,5 +15,27 @@ footer{
 
 /* MEDIA QUERY | DESKTOP | 1200px */
 @media (min-width: 1200px){
-    
+    footer{
+        text-align: center;
+        
+    }
+    .footer__nav{
+        background-color: var(--colorRojo);
+        border-start-end-radius: 20px;
+        border-start-start-radius: 20px;
+
+        display: inline-block;
+        width: 1200px;
+        height: 200px;  
+    }
+    .footer__nav ul li{
+        border-left: 2px solid var(--colorGrisClaro);
+
+        display: inline-block;
+
+        margin-top: 90px;
+    }
+    .footer__nav .solito-sin-bordeizq{
+        border-left: none;
+    }
 }
