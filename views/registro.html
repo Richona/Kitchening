@@ -6,66 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body class="registro">
     <main class="registro_main">
         <section class="registro__logo-y-titulo">
             <div class="registro__logo-y-titulo__logo">
-                <img class="registro__logo-y-titulo__logo2" src="/img/registro/logoBuonAseo.png" alt="logo pagina">
+                <img class="registro__logo-y-titulo__logo2" src="/images/registro/logoBuonAseo.png" alt="logo pagina">
             </div>
-            <h2 class="registro__logo-y-titulo__titulo">Registrarse</h2>
             <a class="registro__logo-y-titulo__salida" href="/">x</a>
-        </section class="registro__redes">
-        <h4 class="registro__redes__titulo">Con su red favorita</h4>
-        <article class="registro__redes__containerFB">
-            <div class="registro__redes__logofb">
-                <img src="/img/registro/imgFacebook.png" alt="facebook">
-            </div>
-            <p class="registro__redes__textofb">Continuar con facebook</p>
-        </article>
-        <article class="registro__redes__containerGoogle">
-            <div class="registro__redes__logogg">
-                <img src="/img/registro/imgGoogle.png" alt="Google">
-            </div>
-            <p class="registro__redes__textogg">Continuar con Google</p>
-        </article>
+            <h2 class="registro__logo-y-titulo__titulo">Registrarse</h2>   
+        </section>
+        <section class="registro__redes">
+            <h4 class="registro__redes__titulo">Con su red favorita</h4>
+            <article class="registro__redes__containerFB">
+                <div class="registro__redes__logofb">
+                    <img src="/images/registro/imgFacebook.png" alt="facebook">
+                </div>
+                <p class="registro__redes__textofb">Continuar con <b>Facebook</b></p>
+            </article>
+            <article class="registro__redes__containerGoogle">
+                <div class="registro__redes__logogg">
+                    <img src="/images/registro/imgGoogle.png" alt="Google">
+                </div>
+                <p class="registro__redes__textogg">Continuar con <b>Google</b></p>
+            </article>
+        </section>
+        <section class="registro__lineaVertical">
+            <div class="registro__lineaVertical__vertical-one-line"></div>
+            <p class="registro__lineaVertical__letraO">o</p>
+            <div class="registro__lineaVertical__vertical-two-line"></div>
+        </section>
         <section class="registro__email">
             <h4 class="registro__email__titulo">Con su Email</h4>
-            <article class="registro__email__container-name">
-                <div class="registro__email__logo-name">
-                    <img src="/img/registro/imgName.png" alt="">
+            <article class="registro__email__container">
+                <div class="registro__email__logo">
+                    <img src="/images/registro/imgName.png" alt="">
                 </div>
-                <input class="registro__email__texto-name" value="" type="text" id="" name="name" placeholder="name" />
+                <input class="registro__email__texto" value="" type="text" id="" name="name" placeholder="name" />
             </article>
-            <article class="registro__email__container-email">
-                <div class="registro__email__logo-email">
-                    <img src="/img/registro/imgEmail.png" alt="">
+            <article class="registro__email__container">
+                <div class="registro__email__logo">
+                    <img src="/images/registro/imgEmail.png" alt="">
                 </div>
-                <input class="registro__email__texto-email" value="" type="email" id="email" name="email"
+                <input class="registro__email__texto" value="" type="email" id="email" name="email"
                     placeholder="email" />
             </article>
-            <article class="registro__email__container-contraseña">
-                <div class="registro__email__logo-contraseña">
-                    <img src="/img/registro/imgContraseña.png" alt="">
+            <article class="registro__email__container">
+                <div class="registro__email__logo">
+                    <img src="/images/registro/imgContraseña.png" alt="">
                 </div>
-                <input class="registro__email__texto-contraseña" value="" type="password" id="" name=""
+                <input class="registro__email__texto" value="" type="password" id="" name=""
                     placeholder="password" />
             </article>
             <article class="registro__email__botonRegistroContainer">
                 <p class="registro__email__registrarseTexto">REGISTRARSE</p>
                 <input class="registro__email__botonSubmit" type="submit" placeholder="Registrarse">
             </article>
-        </section>
-        <section class="registro__cuenta">
-            <p class="registro__cuenta__texto-cuenta">¿Ya tiene una cuenta en Heroes? <a
-                    class="registro__cuenta__ingresar" href="index">Ingresar</a></p>
-        </section>
-        <section class="registro__lineaVertical">
-            <div class="registro__lineaVertical__vertical-one-line" ></div>
-            <p class="registro__lineaVertical__letraO">o</p>
-            <div class="registro__lineaVertical__vertical-two-line"></div>
+            <article class="registro__cuenta">
+                <p class="registro__cuenta__texto-cuenta">¿Ya tiene una cuenta en Heroes?</p>
+            <a class="registro__cuenta__ingresar" href="index">Ingresar</a>
+            </article>
         </section>
     </main>
 </body>
