@@ -34,7 +34,7 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
     background-color: azure;
 }
 
-/* TITULO Y LOGO */
+/* LOGO, TITULO Y SALIDA */
 .registro__logo-y-titulo{
     width: 100%;
     display: flex;
@@ -70,7 +70,7 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
 }
 
 
-/* REDES */
+/* REGISTRO REDES */
 .registro__redes{
     width: 100%;
 
@@ -224,12 +224,12 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
     .registro{
         margin-top: 100px;
     }
-    /* TITULO Y LOGO */
+    /* LOGO, TITULO Y SALIDA */
     .registro__logo-y-titulo__salida{
         top: 113px;
      }
     
-    /* REDES */
+    /* REGISTRO REDES */
     .registro__redes__botonFB, .registro__redes__botonGoogle{
         height: 32px;
     }
@@ -257,12 +257,12 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
         align-items: flex-start;
     }
     
-    /* TITULO Y LOGO */
+    /* LOGO, TITULO Y SALIDA */
     .registro__logo-y-titulo__salida{
         top: 214px;
      }
 
-    /* REDES */
+    /* REGISTRO REDES */
     .registro__redes{
         width: 45%;
     
