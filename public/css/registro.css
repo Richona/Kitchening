@@ -181,6 +181,7 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
 }
 .registro__email__container img{
     width: 20px;
+
     position: absolute;
     right:  5px;
     top: 4px;
@@ -217,11 +218,37 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
     text-decoration:underline;
 }
 
+/* MEDIA | TABLET 768px */
 @media (min-width: 768px){
+    /* CABECERA */
+    .registro{
+        margin-top: 100px;
+    }
+    /* TITULO Y LOGO */
+    .registro__logo-y-titulo__salida{
+        top: 113px;
+     }
     
+    /* REDES */
+    .registro__redes__botonFB, .registro__redes__botonGoogle{
+        height: 32px;
+    }
+    .registro__redes__containerFB img, .registro__redes__containerGoogle img{
+        width: 24px;
+    }
+
+    /* REGISTRO EMAIL */
+    .registro__email__texto{
+        height: 32px;
+    }
+    .registro__email__container img{
+        width: 24px;
+    }
 }
 
+/* MEDIA | DESKTOP 1024px */
 @media (min-width: 1024px){
+    /* CABECERA */
     .registro{
         margin-top: 200px;
     }
@@ -230,9 +257,9 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
         align-items: flex-start;
     }
     
-    /* TITULO */
+    /* TITULO Y LOGO */
     .registro__logo-y-titulo__salida{
-        top: 210px;
+        top: 214px;
      }
 
     /* REDES */
@@ -247,17 +274,11 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
     
         font-weight: 700;
     }
-    .registro__redes__containerFB{
-        height: 32px;
+    .registro__redes__botonFB, .registro__redes__botonGoogle{
+        height: 36px;
     }
-    .registro__redes__containerGoogle{
-        height: 32px;
-    }
-    .registro__redes__logofb img, .registro__redes__logogg img{
-        width: 30px;
-    }
-    .registro__redes__textofb, .registro__redes__textogg{
-        padding-top: 6px;
+    .registro__redes__containerFB img, .registro__redes__containerGoogle img{
+        width: 28px;
     }
 
     /* LINEA */
@@ -270,7 +291,7 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
         padding-top: 10px;
     }
     .registro__lineaVertical__vertical-one-line{
-        height: 50px;
+        height: 56px;
         width: 1px;
     }
     .registro__lineaVertical__vertical-two-line{
@@ -278,7 +299,7 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
         width: 1px;
     }
 
-    /* EMAIL */
+    /* REGISTRO EMAIL */
     .registro__email{
         width: 45%;
     
@@ -289,23 +310,23 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
         padding-top: 10px;
 
         font-weight: 700;
-    }
-    .registro__email__container{
-        height: 32px;
-    }
-    .registro__email__logo img{
-        width: 30px;
-        margin-right: 6px;
-    }
+    } 
     .registro__email__texto{
-        height: 32px;
+        height: 36px;
     }
+    .registro__email__container img{
+        width: 28px;
+    }
+
+    /* BOTON REGISTRARSE */
     .registro__email__botonRegistro{
         align-self:flex-start;
         margin-left: 5%;
 
         height: 34px;
     }
+
+    /* INGRESAR */
     .registro__cuenta{
        display: flex;
        flex-flow: row wrap;
