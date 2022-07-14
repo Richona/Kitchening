@@ -78,7 +78,7 @@
     font-weight: 400;
 }
 .registro__redes__containerFB{
-    border: 1px black solid;
+    border: 1px rgb(80, 151, 245) solid;
     border-radius: 10px;
 
     margin-top: 10px;
@@ -88,12 +88,12 @@
     height: 28px;
 }
 .registro__redes__containerGoogle{
-    border: 1px black solid;
+    border: 1px red solid;
     border-radius: 10px;
 
     margin-top: 10px;
 
-    background-color: rgb(250, 79, 5);
+    background-color: red;
     width: 90%;
     height: 28px;
 }
@@ -146,38 +146,44 @@
     font-size: 0.9rem;
     font-weight: 400;
 }
+.registro__email form{
+    width: 100%;
+
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
 .registro__email__container{
-    border: 1px black solid;
-    border-radius: 10px;
-
-    position: relative;
-    margin-top: 10px;
-
-    background-color: rgb(9, 67, 142);
     width: 90%;
-    height: 28px;
-}
-.registro__email__logo{
-    text-align: right;
-}
-.registro__email__logo img{
-    width: 26px;
-    margin-right: 6px;
+    margin-top: 10px;
+    position: relative;
 }
 .registro__email__texto{
     border: 1px rgb(9, 67, 142) solid;
     border-radius: 10px;
 
-   position: absolute;
-    top: -1px;
-
+    color: white;
     background-color: rgb(9, 67, 142);
-    width: 86%;
+    width: 100%;
     height: 28px;
+
+    padding-left: 10px;
+}
+.registro__email__texto::placeholder{
+    color: white;
+    font-size: 0.8rem;
+}
+.registro__email__container img{
+    width: 20px;
+    position: absolute;
+    right:  5px;
+    top: 4px;
 }
 
-.registro__email__botonRegistroContainer{
-    border: 1px black solid;
+/* BOTON REGISTRARSE */
+.registro__email__botonRegistro{
+    border: 1px solid;
     border-radius: 10px;
 
     position: relative;
@@ -186,30 +192,13 @@
     background-color: rgb(66, 141, 239);
     width: 120px;
     height: 34px;
-}
-.registro__email__registrarseTexto{
-    text-align: center;
-    padding-top: 8px;
 
     font-size: 0.9rem;
     font-weight: 700;
     color:white;
 }
-.registro__email__botonSubmit{
-    border: 1px black solid;
-    border-radius: 10px;
 
-    position: absolute;
-    margin-top: -23px;
-
-    background-color: rgb(66, 141, 239);
-    width: 100%;
-    height: 34px;
-
-    display: none;
-}
-
-/* REGISTRO CUENTA */
+/* INGRESAR */
 .registro__cuenta{
     margin: 10px 0 20px;
     text-align: center;
@@ -306,8 +295,9 @@
     .registro__email__texto{
         height: 32px;
     }
-    .registro__email__botonRegistroContainer{
-        right: 32%;
+    .registro__email__botonRegistro{
+        align-self:flex-start;
+        margin-left: 5%;
 
         height: 34px;
     }
