@@ -10,7 +10,7 @@ header {
     margin: 15px 0 30px;
 }
 
-.header__burger-menu button {
+.header__burger-menu{
     margin-bottom: 30px;
     width: 50px;
     height: 50px;
@@ -18,6 +18,9 @@ header {
     color: var(--colorGrisOscuro);
 }
 
+.header__nav{
+    display: none;
+}
 .header__nav ul li {
     background-color: var(--colorGrisOscuro);
     padding: 8px 0;
@@ -25,10 +28,15 @@ header {
     text-transform: uppercase;
 }
 
+.show{display: block;}
+
 /* MEDIA QUERY | TABLET | 768px */
 @media (min-width: 768px) {
-    .header__burger-menu button {
+    .header__burger-menu {
         display: none;
+    }
+    .header__nav{
+        display: block;
     }
     .header__nav ul{
         display: flex;

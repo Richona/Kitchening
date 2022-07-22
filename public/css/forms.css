@@ -218,7 +218,9 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
     text-decoration:underline;
 }
 
-/* MEDIA | TABLET 768px */
+/*~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* MEDIA || TABLET 768px */
+/*~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (min-width: 768px){
     /* CABECERA */
     .registro{
@@ -246,7 +248,9 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
     }
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* MEDIA | DESKTOP 1024px */
+/*~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (min-width: 1024px){
     /* CABECERA */
     .registro{
@@ -334,4 +338,48 @@ Un ordenador portátil o desktop de alta resolución: 1920 x 1080 */
        align-items: flex-start;
         width: 90%;
     }
+}
+
+
+/* !!!!!!!!!!!!!!!!! */
+/* LOGIN DETALLES */
+/* !!!!!!!!!!!!!!!!! */
+
+/* BOTON INGRESAR */
+.login-detail__article__containerBotonIngreso{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+
+    margin-top: 10px;
+}
+.login-detail__article__containerBotonIngreso div{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 0.9rem;
+}
+
+.login-detail__article__containerBotonIngreso button{
+    width: 90px;
+    margin: 0;
+}
+
+/* REGISTRARSE */
+.login-detail__cuenta{
+    width: 90%;
+
+    margin: 10px 0 20px;
+}
+.login-detail__cuenta div{
+    display: flex;
+    flex-flow: wrap row;
+
+    margin-top: 10px;
 }
